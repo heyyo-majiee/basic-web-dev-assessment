@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Bangtan Sonyeondan Albums</title>
+    <link  rel="icon"  href="images/bts-icon.png">
+</head>
+
+<body class="bground">
+    <!-- Title Bar -->
+    <div class="topbar">   
+        <div class="title">
+            <img id="logo" src="images/bts-logo-1.png">
+        <div class="menubar"> 
+            <ul id="list">
+                <li> Home </li>
+                <li> Products </li>
+                <li> About </li>
+            </ul>
+             <img id="cart" src="images/cart.png" type="button">
+           
+        </div> 
+    </div> 
+    
+    <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="images/banner-1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/banner-2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/banner-3.jpg" style="width:100%">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+    <!-- Products -->
+    <div class="products">
+        <div class="responsive">
+            <div class="gallery">
+                <div class="image">
+                    <img id="img" src="images/be.jpg" alt="BE">
+                </div>
+                <div class="desc">
+                    <p> BE </p>
+                    <p> Php 3,670 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                         <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/dynamite.jpg" alt="DYNAMITE" >
+                </div>
+                <div class="desc">
+                    <p> DYNAMITE </p>
+                    <p> Php 2,899 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                       <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/mop7.jpg" alt="MAP OF THE SOUL: 7">
+                </div>
+                <div class="desc">
+                    <p>MAP OF THE SOUL: 7</p>
+                    <p> Php 2,900 </p>
+                    <p><button class="button" id="myBtn">Add to Cart</button>
+                       <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/mospersona.jpg" alt="MAP OF THE SOUL: PERSONA<">
+                </div>
+                <div class="desc">
+                    <p> MAP OF THE SOUL: PERSONA</p>
+                    <p> Php 2,900 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                        <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/ly-answer.jpg" alt="LOVE  YOURSELF: ANSWER">
+                </div>
+                <div class="desc">
+                    <p>LOVE  YOURSELF: ANSWER</p>
+                    <p> Php 2,850 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/ly-tear.jpg" alt="LOVE YOURSELF: TEAR">
+                </div>
+                <div class="desc">
+                    <p>LOVE YOURSELF: TEAR</p>
+                    <p> Php 2,850 </p>
+                    <p><button class="button" id="myBtn">Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/ly-her.jpg" alt="LOVE YOURSELF: HER">
+                </div>
+                <div class="desc">
+                    <p>LOVE YOURSELF: HER</p>
+                    <p> Php 2,850 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/you-never-walk-alone.jpg" alt="YOU NEVER WALK ALONE">
+                </div>
+                <div class="desc">
+                    <p>YOU NEVER WALK ALONE</p>
+                    <p> Php 2,870 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <div>
+                    <img id="img" src="images/wings.jpg" alt="WINGS">
+                </a>
+                <div class="desc">
+                    <p>WINGS</p>
+                    <p> Php 2,780 </p>
+                    <button class="button" id="myBtn">Add to Cart</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Added to cart!</p>
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
